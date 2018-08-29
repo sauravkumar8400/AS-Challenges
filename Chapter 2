@@ -1,0 +1,44 @@
+EXERCISE 1 
+its = "All"
+over = "work"
+Anakin = "and"
+I = "no"
+have = "play"
+the = "makes"
+high = "Jsck"
+ground = "a"
+you = "dull"
+loser = "boy"
+print(its, over, Anakin, I, have, the, high, ground, you, loser)
+
+EXERCISE 2
+print(6*(1-2))
+
+EXERCISE 3
+#superluminova
+its = "All"
+over = "work"
+Anakin = "and"
+
+EXERCISE 4
+bruce = 6
+print(bruce + 4)
+
+EXERCISE 5
+P = 10000
+r = 0.08
+n = 12
+t = int(input("number of years for t"))
+print(P*(1+r/n)**(n*int(t)))
+
+EXERCISE 6
+print(5 % 2)
+print(9 % 5)
+print(15 % 12)
+print(12 % 15)
+print(6 % 6)
+print(0 % 7)
+print(7 % 0)
+
+EXERCISE 7
+
