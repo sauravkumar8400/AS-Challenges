@@ -1,0 +1,20 @@
+EXERCISE 1
+for x in range(1000):
+    x = "We like Python's turtles!"
+    print(x)
+    
+EXERCISE 2
+turtle.color("blue")            
+turtle.pensize(3)
+turtle.size(1)
+
+EXERCISE 3
+for x in ("January","February","March","April","May","June","July","August","September","October","November","Decmeber"):
+    x = "One of the months of the year is "+ x +""
+    print(x)
+
+
+EXERCISE 4
+it faces the direction 045
+
+EXERCISE 5
