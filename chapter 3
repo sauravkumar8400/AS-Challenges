@@ -18,3 +18,101 @@ EXERCISE 4
 it faces the direction 045
 
 EXERCISE 5
+a) xs = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+
+for i in xs:
+  print(i)
+  
+b) xs = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+
+for i in xs:
+  print(i) 
+  print(i**2)
+  
+c) xs = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+total = 0
+
+for i in xs:
+  print(i)
+
+total = sum(xs)
+print(total)
+
+d) import numpy
+xs = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+total = 0
+
+for m in xs:
+  print(m)
+
+print(numpy.prod(xs))
+
+EXCERCISE 6
+import turtle
+
+shape = input("Triangle, Square, Hexagon or Octagon?")
+
+if shape == "Triangle":
+  for i in range(3):
+    turtle.forward(100)
+    turtle.left(360/3)
+
+if shape == "Square":
+  for i in range(4):
+    turtle.forward(100)
+    turtle.left(360/4)
+
+if shape == "Hexagon":
+  for i in range(6):
+    turtle.forward(100)
+    turtle.left(360/6)
+
+if shape == "Octagon":
+  for i in range(8):
+    turtle.forward(100)
+    turtle.left(360/8)
+
+EXCERCISE 7
+import turtle
+
+turns = [160, -43, 270, -97, -43, 200, -940, 17, 86]
+
+for m in turns:
+  turtle.left(m)
+  turtle.forward(100)
+
+EXCERCISE 9
+import turtle
+
+for i in range(18):
+  turtle.forward(100)
+  turtle.left(360/18)
+
+EXCERCISE 11
+import turtle
+
+for i in range(5):
+  turtle.forward(200)
+  turtle.right(144)
+
+EXCERCISE 12
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+tess = turtle.Turtle()
+tess.shape("turtle")
+tess.color("blue")
+tess.pensize(5)
+
+tess.stamp()
+
+for i in range(12):
+  tess.penup()
+  tess.forward(90)
+  tess.pendown()
+  tess.forward(10)
+  tess.penup()
+  tess.forward(30)
+  tess.stamp()
+  tess.backward(130)
+  tess.left(30)
