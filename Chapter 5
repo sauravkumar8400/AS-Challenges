@@ -1,0 +1,123 @@
+EXERCISE 1
+
+
+EXERCISE 2
+
+
+EXERCISE 3
+a <= b
+a < b
+a < 18  and  day != 3
+a < 18  and  day == 3
+
+EXERCISE 4
+3 equals to 3
+3 is not equal to 3
+3 is greater than or equal to 4
+3 is not smaller than 4
+
+
+EXERCISE 5
+T, T, F, T, F, T, T, T
+
+EXERCISE 6
+x = int(input("What is your exam mark?"))
+if x >= 75:
+    print("First")
+elif x >= 70:
+    print("Upper Second")
+elif x >= 60:
+    print("Second")
+elif x >= 50:
+    print("Third")
+elif x >= 45:
+    print("F1 Supp")
+elif x >= 40:
+    print("F2")
+elif x < 40:
+    print("F3")
+
+
+EXERCISE 7
+import turtle
+
+def draw_bar(t, height):
+    """ Get turtle t to draw one bar, of height. """
+    t.begin_fill()           # Added this line
+    t.left(90)
+    t.forward(height)
+    t.write("  "+ str(height))
+    t.right(90)
+    t.forward(40)
+    t.right(90)
+    t.forward(height)
+    t.left(90)
+    t.end_fill()
+    t.penup()
+    t.forward(10)
+    t.pendown()
+
+
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+
+tess = turtle.Turtle()       # Create tess and set some attributes
+tess.color("blue", "red")
+tess.pensize(3)
+
+xs = [48,117,200,240,160,260,220]
+
+for a in xs:
+    draw_bar(tess, a)
+
+wn.mainloop()
+
+EXERCISE 8
+
+
+EXERCISE 9
+import turtle
+
+def draw_bar(t, height):
+    """ Get turtle t to draw one bar, of height. """
+    t.begin_fill()           # Added this line
+    t.left(90)
+    t.forward(height)
+    t.write("  "+ str(height))
+    t.right(90)
+    t.forward(40)
+    t.right(90)
+    t.forward(height)
+    t.left(90)
+    t.end_fill()             # Added this line
+    t.forward(10)
+
+wn = turtle.Screen()         # Set up the window and its attributes
+wn.bgcolor("lightgreen")
+
+tess = turtle.Turtle()       # Create tess and set some attributes
+tess.color("blue", "red")
+tess.pensize(3)
+
+xs = [48,-117,-200,240,160,-260,220]
+
+for a in xs:
+    draw_bar(tess, a)
+
+wn.mainloop()
+
+
+EXERCISE 10
+a = float(input("length of a"))
+b = float(input("length of b"))
+
+x = a**2 + b**2
+find_hypot = print(x ** 0.5)
+
+EXERCISE 11
+
+
+EXERCISE 12
+
+
+EXERCISE 13
