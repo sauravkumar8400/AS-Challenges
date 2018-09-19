@@ -1,0 +1,28 @@
+Exercise 1
+import turtle
+
+def square(alex,sz):
+    for i in range(0,5,1):
+        alex.fd(sz)
+        alex.lt(90)
+        alex.fd(sz)
+        alex.lt(90)
+        alex.fd(sz)
+        alex.lt(90)
+        alex.fd(sz)
+        alex.lt(90)
+        alex.pu()
+        alex.fd(40)
+        alex.pd()
+
+
+alex = turtle.Screen()
+alex.bgcolor("lightgreen")
+
+
+alex = turtle.Turtle()
+alex.pensize(3)
+
+square(alex,20)
+
+Exercise 2
