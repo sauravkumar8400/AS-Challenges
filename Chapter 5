@@ -114,10 +114,4 @@ b = float(input("length of b"))
 x = a**2 + b**2
 find_hypot = print(x ** 0.5)
 
-EXERCISE 11
 
-
-EXERCISE 12
-
-
-EXERCISE 13
