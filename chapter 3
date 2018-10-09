@@ -117,6 +117,5 @@ for i in range(12):
   tess.backward(130)
   tess.left(30)
   
-EXERCISE 14
-NEST
+
 
