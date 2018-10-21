@@ -1,0 +1,63 @@
+EXERCISE 1
+yeet = [1, 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10]
+
+count = 0
+for i in yeet:
+    if i % 2 == 1:
+            count += 1
+    print(count)
+
+EXERCISE 2
+yeet = [1, 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10]
+
+sum = 0
+for i in yeet:
+    if i % 2 == 0:
+           sum += i
+    print(sum)
+    
+EXERCISE 3
+yeet = [-1, 2 , -3 , 4 , -5 , 6 , -7 , 8 , -9 , 10]
+
+sum = 0
+for i in yeet:
+    if i < 0:
+           sum += i
+    print(sum)
+
+EXERCISE 4
+yeet = ["f","oof","feels","five"]
+
+len = 0
+for i in yeet:
+    if len == 5:
+        print(i)
+
+EXERCISE 5
+yeet = [1, 2, 3, 4 , 5 , 6 ,7]
+
+
+sum(yeet[0:3])
+print(sum)
+
+EXERCISE 6
+yeet = ["t-pain", "tyga", "sam", "lil' pump"]
+
+a = len(yeet)
+if yeet == "sam":
+    break
+print(a)
+
+EXERCISE 7
+
+
+EXERCISE 8
+EXERCISE 9
+EXERCISE 10
+EXERCISE 11
+EXERCISE 12
+EXERCISE 13
+EXERCISE 14
+EXERCISE 15
+EXERCISE 16
+EXERCISE 17
