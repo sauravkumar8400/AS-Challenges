@@ -1,0 +1,15 @@
+EXERCISE 1
+
+def actor(tuple):
+    a = tuple[1]
+    return a
+
+print( (actor(("Julia", "Roberts", 1967, "Duplicity", 2009, "Actress", "Atlanta, Georgia"))))
+
+EXERCISE 2
+
+# Pairs are generalisation of tuples
+
+EXERCISE 3
+
+# A pair is a kind of tuple
