@@ -34,7 +34,7 @@ wn.onkey(h2, "Left")
 wn.onkey(h3, "Right")
 wn.onkey(h4, "q")
 wn.onkey(h5, "r")
-wn.onkey(h6, "g")
+wn.onkey(h6, "g
 wn.onkey(h7, "b")
 
 wn.listen()
