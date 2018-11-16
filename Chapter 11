@@ -1,5 +1,0 @@
-EXERCISE 1 a
-
-import calendar
-cal = calendar.TextCalendar(3)      # Create an instance
-cal.pryear(2012)                   # What happens here?
