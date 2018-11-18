@@ -21,3 +21,32 @@ that = this  - linking the variable "that" to the list "this"
 print("Test 2: {0}".format(this is that)) - the variables have been linked, the test would return true since the list refers to both variables
 
 EXERCISE 5
+
+
+
+EXERCISE 6
+
+
+
+EXERCISE 7
+
+
+
+EXERCISE 10
+
+def replace(s,old,new):
+    s = new.join(s.split(old))
+    return s
+
+test(replace("Mississippi", "i", "I") == "MIssIssIppI")
+
+s = "I love spom! Spom is my favorite food. Spom, spom, yum!"
+test(replace(s, "om", "am") ==
+    "I love spam! Spam is my favorite food. Spam, spam, yum!")
+
+test(replace(s, "o", "a") ==
+    "I lave spam! Spam is my favarite faad. Spam, spam, yum!")
+   
+EXERCISE 11
+
+values of a and b are not changed outside the function
