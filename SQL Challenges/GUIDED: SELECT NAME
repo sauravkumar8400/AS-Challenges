@@ -26,4 +26,7 @@ ORDER BY name
 SELECT name FROM world
  WHERE name LIKE '%o__o%'
  
- 10
+SELECT name FROM world
+ WHERE name LIKE '____'
+ 
+ 
