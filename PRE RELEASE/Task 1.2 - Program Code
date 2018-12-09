@@ -1,0 +1,10 @@
+def list():
+    mlist = []
+    with open('Monsters.txt') as i:
+        for line in i:
+            parts = line.split(",")
+            mlist.append(parts[1])
+        for monster in mlist:
+            print(monster)
+
+print(list())
