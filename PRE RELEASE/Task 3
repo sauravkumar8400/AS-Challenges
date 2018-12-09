@@ -1,0 +1,48 @@
+def newmonster():
+    while True:
+        number = input("Please enter a number: ")
+        try:
+            oknum = int(number)
+            if 0 < oknum < 31:
+                break
+            else:
+                print("please enter a number between 1 & 30")
+
+        except ValueError:
+            print("Enter in a number, please!")
+
+    print("Number Entered is", oknum)
+    return number
+
+Name = input("What is the monster's name?")
+Origin = input("Where did the monster come from?")
+Description = input("Describe the monster: ")
+
+print("Enter the monster's Attack ")
+Attack = newmonster()
+print("Enter the monster's Magical Force")
+Magical_Force = newmonster()
+print("Enter the monster's Magical Defense")
+Magical_Defense = newmonster()
+print("Enter the monster's Defence")
+Defense= newmonster()
+print("Enter the monster's Intelligence")
+Intelligence = newmonster()
+print("Health")
+Health = newmonster()
+print("Enter the monster's Experience")
+Experience = newmonster()
+
+print("\n")
+
+print("NEW Monster Card")
+print("Name:",Name)
+print("Origin:",Origin)
+print("Description:",Description)
+print("Attack:",Attack)
+print("Magical Force:",Magical_Force)
+print("Magical Defense:",Magical_Defense)
+print("Defense:", Defense)
+print("Intelligence:", Intelligence)
+print("Health:", Health)
+print("Experience:", Experience)
