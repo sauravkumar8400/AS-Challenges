@@ -1,0 +1,10 @@
+name = input("name? ")
+
+def searchm():
+    Mfile = open('Monsters.txt','r')
+    while True:
+        line = Mfile.readline()
+        if name == line:
+            print("FOUND")
+        else:
+            print("nO")
